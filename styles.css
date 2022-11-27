@@ -1,0 +1,311 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: ComicNeue, serif;
+}
+
+@font-face {
+    font-family: 'ComicNeue';
+    src: url(assets/fonts/comic-neue/ComicNeue-Regular.ttf);
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'ComicNeue';
+    src: url(assets/fonts/comic-neue/ComicNeue-Bold.ttf);
+    font-weight: bold;
+}
+
+
+.header {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+;
+}
+
+.nav-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.nav-list {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+li {
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.header-button {
+    background-color: #5086dc;
+    color: #fff;
+    font-family: ComicNeue, serif;
+    width: 75px;
+    height: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(109, 150, 216, 0.75);
+    border-radius: 5px;
+    border: none;
+}
+
+/*LANDING VIDEO*/
+
+.video-landing {
+    position: relative;
+    margin: 0px;
+}
+
+video {
+    display: block;
+
+}
+
+.main-title {
+    width: 400px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.subtitle {
+    width: 200px;
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.trailer-button {
+    font-family: ComicNeue, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5086dc;
+    box-shadow: 0px 2px 2px 0px rgba(109, 150, 216, 0.75);
+    border-radius: 10px;
+    border: solid 1px #5086dc;
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+}
+
+.video {
+    width: 100%;
+}
+
+/* NEWSLETTER */
+
+.newsletter-banner {
+    background-color: #80b1ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0;
+}
+
+.newsletter-text {
+    color: #fff;
+    display: block;
+}
+
+.newsletter-maintext {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    /*text-shadow:*/
+}
+
+.newsletter-subtext {
+    font-size: 18px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.newsletter-signup {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.email-container {
+    margin: 0 5px;
+}
+
+.email-input {
+    font-family: ComicNeue, serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5086dc;
+    box-shadow: 0px 2px 2px 0px rgba(109, 150, 216, 0.75);
+    border-radius: 8px;
+    border: solid 1px #5086dc;
+    padding: 5px 20px;
+    border: none;
+}
+
+.newsletter-btn {
+    font-family: ComicNeue, serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5086dc;
+    box-shadow: 0px 2px 2px 0px rgba(109, 150, 216, 0.75);
+    border-radius: 8px;
+    border: solid 1px #5086dc;
+    padding: 5px 20px;
+}
+
+/*INFORMATION*/
+
+.info-section {
+    background-color: #99e2ff;
+    width: 100%;
+
+}
+
+.mockup {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.mockup-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.mockup-maintext {
+    color: #fff;
+    font-size: 36px;
+}
+
+.mockup-subtext {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img-mockup {
+    width: 400px;
+}
+
+/*LOOTBOX */
+
+.lootbox-card {
+    width: 1000px;
+    position: relative;
+}
+
+.lootbox-things {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.lootbox-container {
+    width: 400px;
+    margin: 0;
+    padding: 0 0 30px 30px;
+}
+
+.lootbox-text {
+    color: #fff;
+}
+
+.lootbox-title {
+    width: 450px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.lootbox-subtext {
+    font-size: 20px;
+    font-family: ComicNeue, serif;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.lootbox-buttons {
+    width: 250px;
+}
+
+.lootbox-buybtn {
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: ComicNeue, serif;
+    color: #fff;
+    background-color: #5086dc;
+
+}
+
+.lootbox-learnbtn {
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.lootbox-img {
+    width: 400px;
+    margin: 20px 50px;
+}
+
+.lootbox-backgroundimg {
+    width: 950px;
+    border-radius: 20px;
+}
+
+/* NEWS CARDS */
+
+.news-title {
+    width: 300px;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news-card img{
+    width: 200px;
+} 
+
+/*FOOTER*/
+
+footer {
+    background-color: #80b1ff;
+}
+
+.bottom-img {
+    width: 50px;
+}
