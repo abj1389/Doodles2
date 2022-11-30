@@ -8,7 +8,7 @@ body {
     font-family: 'ComicNeue';
     src: url(assets/fonts/comic-neue/ComicNeue-Regular.ttf);
     font-style: normal;
-} 
+}
 
 @font-face {
     font-family: 'ComicNeue';
@@ -22,7 +22,7 @@ body {
     background-color: #fff;
     justify-content: space-evenly;
     align-items: center;
-;
+    ;
 }
 
 .nav-icon {
@@ -288,24 +288,64 @@ video {
 /* NEWS CARDS */
 
 .news-title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.news-title img{
     width: 300px;
 }
 
 .news-cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
-.news-card img{
-    width: 200px;
-} 
+.news-card img {
+    width: 260px;
+    border-radius: 20px 20px 0 0;
+}
+
+.news-card-text1 {
+    width: 260px;
+    padding: 0px 10px 0 10px;
+    color: #313a71;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.news-card-text2 {
+    width: 260px;
+    padding: 5px 10px;
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.news-card {
+    width: 260px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
 
 /*FOOTER*/
 
 footer {
-    background-color: #80b1ff;
+    background-color: #ffa4d4;
 }
 
-.bottom-img {
-    width: 50px;
+.footer-img {
+    width: 80px;
+    padding: 20px 0 0 20px;
+}
+
+.footer-text{
+    color: #fc7cc5;
+    padding: 0px 0 20px 20px;
+    font-size: 10px;
+    font-weight: bold;
 }
